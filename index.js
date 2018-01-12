@@ -1,3 +1,7 @@
-getFirstSelector = selector => document.querySelector(selector);
+function getFirstSelector(selector) {
+  return document.querySelector(selector);
+}
 
-nestedTarget = () => 
+function nestedTarget() {
+  return document.getElementById('#nested').querySelector('.target');
+}
