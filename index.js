@@ -1,2 +1,2 @@
-function getFirstSelector(selector) => document.querySelector(selector);
+getFirstSelector = selector => document.querySelector(selector);
 
